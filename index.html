@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanka Ippala</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e7dede;
+        }
+
+        header {
+            background-color: #433f3f;
+            color: #fff;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(49, 49, 49, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        .p {
+            color: #b7b1b1;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        
+
+        p {
+            color: #100f0f;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+
+        .project h3 {
+            color: black; /* Changed from #4285f4 to black */
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color:#b7b1b1">Priyanka Ippala</h1>
+        <p class="p">Aspiring Full Stack Data Scientist </p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>      
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello there! I'm Priyanka Ippala, an aspiring Full Stack Data Scientist eager to embark on a journey of innovation and problem-solving. I am enthusiastic about applying my academic knowledge and hands-on experiences to real-world data science challenges. 
+          During my studies, I've gained proficiency in programming languages like C, Python, Java, and I have a solid foundation in software engineering principles. My academic projects showcase my ability to quickly grasp new concepts and my passion for creating efficient and user-centric solutions.
+           I am excited to contribute my skills, energy, and fresh perspectives to a dynamic team and make a meaningful impact in the world of software engineering.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Python</p>
+        <p>Selenium</p>
+        <p>Flask</p>
+        <p>HTML,CSS</p>
+        <p>React JS </p>
+        <p>MongoDB</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Web Scapping</h3>
+            <p>Scrapped www.fbi.com , and collected crime data of three types of five different states for eleven consecutive years from 2012 to 2022.</p>
+        </div>
+
+        <div class="project">
+            <h3>College Critic</h3>
+            <p>Working on building  a Streamlit app, collected data through google form and building a webapp to display analysis of facilities provided by college management, and also providing a form in the web app to submit ratings for students</p>
+        </div>
+
+        <div class="project">
+            <h3>Rest API</h3>
+            <p>Build rest-api with GET , POST method for  Web Scrapped crime data,using Flask framework.</p>
+        </div>
+        
+
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <p>Secured the third position in a college-level coding competition conducted by ISTE of our college in 2023.</p>
+        <p>Achieved Leetcode 50 days badge, in top 6.1% coders of 2023 in Leetcode</p>
+        <p>Got 5-star in Python Programming in HackerRank</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact me at: priyankaippala2003@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Priyanka Ippala. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
